@@ -4,7 +4,7 @@
 class RestartExtension < Radiant::Extension
   version "1.0"
   description "Add a restart button for passenger to settings extension"
-  url "http://github.com/jfqd/radiant-restart-extension"
+  url "https://github.com/jfqd/radiant-restart-extension"
   
   define_routes do |map|
     map.with_options(:controller => 'admin/settings') do |settings|
