@@ -1,0 +1,9 @@
+h1. Restart Extension
+
+This extension for the "Radiant CMS":http://github.com/radiant/radiant adds a restart button for passenger to the "Settings":http://github.com/Squeegy/radiant-settings extension.
+
+Make sure to load this extension after the settings extension: 
+
+config.extensions = [ :all, :restart ]
+
+Tested with 0.9.1

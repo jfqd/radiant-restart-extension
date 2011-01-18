@@ -1,0 +1,5 @@
+*~
+.DS_Store
+features/*
+spec/*
+cucumber.yml
